@@ -154,11 +154,78 @@
     left: 40%;
 }
 /* Tonga */
-
+.tongaContainer {
+    background-color: rgb(175, 24, 24);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.tongaCrossContainer {
+    background-color: white;
+    height: 50%;
+    width: 40%;
+    position: relative;
+}
+.tongaRed {
+    background-color: rgb(175, 24, 24);
+    position: absolute;
+}
+.tonga1 {
+    height: 20%;
+    width: 20%;
+    top: 20%;
+    left: 40%;
+}
+.tonga2 {
+    width: 60%;
+    height: 20%;
+    left: 20%;
+    bottom: 40%
+}
+.tonga3 {
+    height: 20%;
+    width: 20%; 
+    bottom: 20%;
+    left: 40%;
+}
 /* Japan */
-
+.japanContainer {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.japanRed {
+    background-color: rgb(235, 34, 34);
+    border-radius: 50%;
+    margin: auto;
+    height: 50%;
+    width: 40%;
+}
 /* Canada */
-
+.canadaContainer {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.canada1 {
+    width: 25%;
+    height: 100%;
+    background-color: red;
+}
+.canada2 {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+.canadaLogo {
+    background-color: transparent;
+    background-image: url(./assets/images/canada_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(27deg);
+}
 /* Norway */
 
 /* Greece */
