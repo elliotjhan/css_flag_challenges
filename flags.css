@@ -208,6 +208,7 @@
     width: 100%;
     background-color: white;
     display: flex;
+    position: relative;
 }
 .canada1 {
     width: 25%;
@@ -220,11 +221,16 @@
     height: 100%;
 }
 .canadaLogo {
+    height: 50%;
+    width: 50%;
+    position: absolute;
     background-color: transparent;
     background-image: url(./assets/images/canada_logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(27deg);
+    left: 29%;
+    top: 25%;
 }
 /* Norway */
 
